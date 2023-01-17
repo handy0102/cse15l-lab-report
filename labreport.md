@@ -53,3 +53,5 @@ Some examples of commands I use are:
 ![Image](connection.png)
 ![Image](command2.png)
 ![Image](commandexit.png)
+
+`pwd` seems to give us the file path. I have no idea was `ls -lat` does. `exit` cancels the connection.
