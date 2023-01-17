@@ -20,7 +20,7 @@ Now, we want to access the terminal in VSCode. To do this:
 1. Enter VSCode
 2. Click **Terminal** on the top left corner
 3. Select *New Terminal*
-
+![Image](terminal-screenshot.png)
 
 Now we want to type in a command into the terminal: 
 `$ ssh cs15lwi23zz@ieng6.ucsd.edu`
