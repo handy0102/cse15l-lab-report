@@ -47,4 +47,7 @@ Here are some commands to you can try:
 * mkdir
 * cp
 
-If you want to exit the rmeote server type in the command: `exit`
+If you want to exit the remote server type in the command: `exit`
+
+Some examples of commands I use are: 
+![Image](command.png)
