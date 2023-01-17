@@ -51,3 +51,4 @@ If you want to exit the remote server type in the command: `exit`
 
 Some examples of commands I use are: 
 ![Image](connection.png)
+![Image](command2.png)
