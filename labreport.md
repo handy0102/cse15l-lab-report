@@ -7,3 +7,4 @@ Download your computer's operating system version.
 For the sake of simplicity, we will use macOS.
 
 After downloading, you should see this screen:
+![Image](vscode-screenshot.png)
