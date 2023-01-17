@@ -2,6 +2,8 @@
 ## **Downloading VSCode**
 First, you want to visit [VSCode](https://code.visualstudio.com/download)
 
-Choose your computer's operating system. 
+Download your computer's operating system version. 
 
 For the sake of simplicity, we will use macOS.
+
+After downloading, you should see this screen:
