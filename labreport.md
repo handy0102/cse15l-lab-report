@@ -37,3 +37,4 @@ Type in **yes**
 Now you'll get asked to input your password. You won't actually see the characters you input, so carefully type it in.
 
 You should now see this:
+![Image](remoteconnecting.png)
