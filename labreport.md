@@ -15,3 +15,9 @@ After downloading, you should see this screen:
 Before we actually use VSCode, we must first reset our CSE15L account password.
 
 Here is a guide: https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit
+
+Now, we want to access the terminal in VSCode. To do this:
+1. Enter VSCode
+2. Click **Terminal** on the top left corner
+3. Select *New Terminal*
+
