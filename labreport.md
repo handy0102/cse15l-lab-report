@@ -38,3 +38,14 @@ Now you'll get asked to input your password. You won't actually see the characte
 
 You should now see this:
 ![Image](remoteconnection.png)
+
+## **Commands**
+Here are some commands to you can try:
+
+* cd
+* ls
+* pwd
+* mkdir
+* cp
+
+If you want to exit the rmeote server type in the command: `exit`
