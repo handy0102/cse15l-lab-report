@@ -31,3 +31,9 @@ If it is your first time doing this, you will get this message:\
 `The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?`
+
+Type in **yes**
+
+Now you'll get asked to input your password. You won't actually see the characters you input, so carefully type it in.
+
+You should now see this:
