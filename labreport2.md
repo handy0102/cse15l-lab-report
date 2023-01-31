@@ -99,4 +99,4 @@ static void reverseInPlace(int[] arr) {
 These changes fixed the bug because it creates a new array and copies the data from the orginal array reversely. Then I take the new array and copies its data directly into the original array.
 
 ## Part 3
-This lab definetely helped me understand what getQuery.split does and the other methods that are used to create a web server. Didn't really understand it from the lab during week 2, since we didn't really write it. Now I know that it splits the path so you can actually extract information/data and use it to put onto your website. 
+This lab definetely helped me understand what getQuery.split does and the other methods that are used to create a web server. Didn't really understand it from the lab during week 2 since we didn't really write it. Now I know that it splits the path so you can actually extract information/data and use it to put onto your website. 
