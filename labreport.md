@@ -41,7 +41,7 @@ You should now see this:
 ## **Commands**
 Here are some commands to you can try:
 
-* cd
+* cd <path> - changes directories 
 * ls
 * pwd
 * mkdir
