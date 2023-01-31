@@ -41,11 +41,11 @@ You should now see this:
 ## **Commands**
 Here are some commands to you can try:
 
-* cd <path> - changes directories 
-* ls
-* pwd
-* mkdir
-* cp
+* cd (path) - changes directories to the inputed path.
+* ls (path) - lists all the files and folders of the inputed path.
+* pwd - print working directory. displays the current working directory.
+* mkdir (name) - creates a new directoy called name
+* cp - copies a file from a server(?) onto your computer
 
 If you want to exit the remote server type in the command: `exit`
 
@@ -54,4 +54,4 @@ Some examples of commands I use are:
 ![Image](command2.png)
 ![Image](commandexit.png)
 
-`pwd` seems to give us the file path. I have no idea was `ls -lat` does. `exit` cancels the connection.
+`pwd` seems to give us the file path. `ls -lat` lists all the files but with more information including time of edit, size, and user acess. `exit` cancels the connection.
