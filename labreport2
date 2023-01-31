@@ -1,4 +1,4 @@
-<code>import java.io.IOException;
+<pre><code>import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
@@ -33,4 +33,4 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
-</code>
+</code></pre>
