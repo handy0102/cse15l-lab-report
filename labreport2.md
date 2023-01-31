@@ -72,3 +72,27 @@ public void testReverseInPlace() {
 ```
 * The symptom, as the output of running test:
 ![Image](junittest.png)
+
+* The bug, before and after fixing it:
+Before:
+```java
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+After:
+```java
+static void reverseInPlace(int[] arr) {
+    int[] newArray = new int[arr.length];
+    newArray[0] = arr[arr.length-1];
+    for(int i = 1; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length-i-1];
+    }
+    for(int k = 0; k < arr.length; k++) {
+      arr[k] = newArray[k];
+    }
+  }
+```
+These changes fixed the bug because it creates a new array and copies the data from the orginal array reversely. Then I take the new array and copies its data directly into the original array.
