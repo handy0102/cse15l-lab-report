@@ -50,3 +50,15 @@ Screenshots:
 * handleRequests gets http://localhost:400/add-message?s=gg=gg, the url, getPath gets "/add-message", path part of url, getQuery.split "=", the part of url after the =. 
 * The value of str gets changed because the user inputs "gg=gg". It only adds the first "gg" because the second one is index 2 of the parameter list.
 
+## Part 2
+
+A failure-inducing input:
+* Junit test 
+```java
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3, 4, 5 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 5, 4, 3 }, input1);
+	}
+```
