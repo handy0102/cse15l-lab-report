@@ -40,3 +40,7 @@ class StringServer {
 ```
 
 Screenshots: 
+![Image](helloscreenshot.png)
+
+
+![Image](weirdinputs.png]
