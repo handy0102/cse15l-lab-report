@@ -74,6 +74,7 @@ public void testReverseInPlace() {
 ![Image](junittest.png)
 
 * The bug, before and after fixing it:
+
 Before:
 ```java
 static void reverseInPlace(int[] arr) {
