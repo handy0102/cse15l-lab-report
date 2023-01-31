@@ -41,11 +41,11 @@ You should now see this:
 ## **Commands**
 Here are some commands to you can try:
 
-* cd (path) - changes directories to the inputed path.
-* ls (path) - lists all the files and folders of the inputed path.
+* cd (path) - changes directories to the inputted path.
+* ls (path) - lists all the files and folders of the inputted path.
 * pwd - print working directory. displays the current working directory.
 * mkdir (name) - creates a new directoy called name
-* cp - copies a file from a server(?) onto your computer
+* cp - copies a file from an inputted server path onto your computer
 
 If you want to exit the remote server type in the command: `exit`
 
