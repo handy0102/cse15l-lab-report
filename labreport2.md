@@ -52,8 +52,7 @@ Screenshots:
 
 ## Part 2
 
-A failure-inducing input:
-* Junit test 
+* A failure-inducing input:
 ```java
 @Test 
 public void testReverseInPlace() {
@@ -62,3 +61,14 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{ 5, 4, 3 }, input1);
 }
 ```
+* An input that doesn't induce failure: 
+```java
+@Test 
+public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+}
+```
+* The symptom, as the output of running test:
+![Image](junittest.png)
