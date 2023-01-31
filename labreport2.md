@@ -41,6 +41,12 @@ class StringServer {
 
 Screenshots: 
 ![Image](helloscreenshot.png)
+* handleRequest, getPath, getQuery().split() were all called.
+* handleRequests gets http://localhost:400/add-message?s=Hello, the url, getPath gets "/add-message", path part of url, getQuery.split "=", the part of url after the =. 
+* The value of str gets changed because the user inputs "How are you", which adds on to the "Hello". 
 
+![Image](weirdinputs.png)
+* handleRequest, getPath, getQuery().split() were all called.
+* handleRequests gets http://localhost:400/add-message?s=gg=gg, the url, getPath gets "/add-message", path part of url, getQuery.split "=", the part of url after the =. 
+* The value of str gets changed because the user inputs "gg=gg". It only adds the first "gg" because the second one is index 2 of the parameter list.
 
-![Image](weirdinputs.png]
