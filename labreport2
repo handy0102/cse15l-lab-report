@@ -1,4 +1,5 @@
-<pre><code>import java.io.IOException;
+```java
+import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
@@ -18,6 +19,7 @@ class Handler implements URLHandler {
             return "404 Not Found";
     }
 }
+
     
 
 
@@ -33,4 +35,4 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
-</code></pre>
+```
