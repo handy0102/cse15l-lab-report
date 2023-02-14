@@ -4,8 +4,8 @@ I'll be using the **grep** command :D.
 
 All my examples came from https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
 
-## grep -r "string" file-name/directory
-**EX1)**
+## 1. grep -r "string" file-name/directory
+**EXAMPLE 1)**
 
 Input:
 `
@@ -17,7 +17,7 @@ Output:
 Explanation:
 This command takes in the string pattern "In the late 1940s". It then recursively searches in the current directory (Abernathy) and its subdirectories for exact matches and outputs the lines that contain the match along with the file name. This is useful for looking for specific data inside big data files. 
 
-**EX2)** 
+**EXAMPLE 2)** 
 
 Input: 
 `andyho@Andys-MacBook-Air written_2 % grep -r "no matching string"`
@@ -28,9 +28,9 @@ No output :(
 Explanation:
 This command takes in the string pattern "no matching string". It searches for a line with the matching string, but it does not find any. This is useful for checking if specific patterns exist in a data file.
 
-## grep -c "string" file-name
+## 2. grep -c "string" file-name
 
-**EX1)**
+**EXAMPLE 1)**
 
 Input: 
 `andyho@Andys-MacBook-Air berlitz2 % grep -c "Bahamas" Bahamas-History.txt`
@@ -41,7 +41,7 @@ Output:
 Explanation:
 This command takes in a string pattern "Bahamas" and returns the number of lines that contain that string inside Bahams-History.txt. This command is useful for checking if the string pattern is a common occurance in a text file.
 
-**EX2)**
+**EXAMPLE 2)**
 
 Input:
 `andyho@Andys-MacBook-Air berlitz2 % grep -c "Not Bahamas" Bahamas-History.txt`
@@ -52,9 +52,9 @@ Output:
 Explanation:
 Takes in the string "Not Bahamas" and counts the number of lines that pattern appears. In this case it's zero, because no line in that file contains it. This is useful for confirming if there is no sentence/word that appears in the text file.
 
-## grep -v "string" file-name
+## 3. grep -v "string" file-name
 
-**EX1)**
+**EXAMPLE 1)**
 
 Input:
 `andyho@Andys-MacBook-Air berlitz2 % grep -v "Bahamas" Bahamas-history.txt` 
@@ -77,7 +77,7 @@ Then, to the astonishment of the local populace, the Duke of Windsor, having giv
 Explanation:
 This command basically returns all the lines from Bahamas-History.txt that don't contain the string "Bahamas". This is really useful for people who are allergic to the word "Bahamas", but still want to read an article on the Bahamas. Idk maybe Sam Bankman stole their money.
 
-**EX2)**
+**EXAMPLE 2)**
 
 Input:
 `andyho@Andys-MacBook-Air berlitz2 % grep -v -i "surf" bali-whattodo.txt`
@@ -138,9 +138,9 @@ Explanation:
 Like example 1, it returns all the lines inside the inputted file that contain the inputted string. In this example, it helped me filter the lines with "surf" in it. I used -i so the captilization did not matter either. This command is useful for just filtering information that you find useless, like an activity that you've already done.
 
 
-## grep -n "string" file-name
+## 4. grep -n "string" file-name
 
-**EX1)**
+**EXAMPLE 1)**
 
 Input:
 `andyho@Andys-MacBook-Air berlitz2 % grep -n "San Diego" California-WhereToGo.txt`
@@ -159,7 +159,7 @@ Output:
 Explanation:
 This is similar to the -c option, where it searches for a specific string. However, -n does so inside a textfile, and actually lists the number line. It looked for lines that contained "San Diego" inside the California-WhatToDo.txt file. This was useful for filtering out cities that weren't San Diego, and giving the line number. This is useful for going back into the text file to find extra information from the line numbers that the -c option didn't provide.
 
-**EX2)**
+**EXAMPLE 2)**
 
 Input:
 `andyho@Andys-MacBook-Air berlitz2 % grep -n "Los Angeles" California-WhereToGo.txt `
