@@ -157,7 +157,7 @@ Output:
 147:San Diego’s beaches are truly beautiful and remarkably unspoiled, stretching for some 27 miles (43 km) up to the elegant suburb of La Jolla (pronounced “la HOY-a,” Spanish for “jewel”), whose centerpiece is the tiny rock basin of La Jolla Cove. The rocky coast to the south is marvelous for walking, and away from the ocean there are stylish shops and elegant restaurants to visit. The marine life of southern California is splendidly displayed in the Birch Aquarium at Scripps, which is spectacularly sited on the hilltop above La Jolla.`
 
 Explanation:
-This is similar to the -c option, where it searches for a specific string. However, -n does so inside a textfile, and actually lists the number line. It looked for lines that contained "San Diego" inside the California-WhatToDo.txt file. This was useful for filtering out cities that weren't San Diego, and giving the line number. This is useful for going back into the text file to find extra information that the -c option didn't provide. 
+This is similar to the -c option, where it searches for a specific string. However, -n does so inside a textfile, and actually lists the number line. It looked for lines that contained "San Diego" inside the California-WhatToDo.txt file. This was useful for filtering out cities that weren't San Diego, and giving the line number. This is useful for going back into the text file to find extra information from the line numbers that the -c option didn't provide.
 
 **EX2)**
 
@@ -183,6 +183,6 @@ Output:
 124:The great mass of Los Angeles’s population lives in the sprawling suburbs of the valleys — the San Fernando Valley north of the Hollywood Hills and the San Gabriel Valley stretching east towards San Bernardino. It’s composed mainly of suburbs and uninspired strip centers (block-long low-rise shopping malls), but there are a few reasons to drop by.`
 
 Explanation:
-In this example, I searched for lines that contained Los Angeles inside California-WhatToDo.txt. This is useful for a Los Angeles native that thinks that their city revolves around the world and doesn't want to do research on other cities. They get an idea where information about Los Angeles ends because this command actually lists the line number, although this might not be entirely accurate because there may be information about LA that doesn't have "Los Angeles" in the line. 
+In this example, I searched for lines that contained Los Angeles inside California-WhatToDo.txt. This is useful for a Los Angeles native that thinks that their city revolves around the world and doesn't want to do research on other cities. They get an idea where information about Los Angeles ends because this command actually lists the line number, although this might not be entirely accurate because there may be information about LA that doesn't have "Los Angeles" in the line, but we still have a general idea.
 
 
