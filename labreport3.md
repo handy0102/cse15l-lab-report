@@ -5,7 +5,7 @@ I'll be using the **grep** command :D.
 All my examples came from https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
 
 ## grep -r "string" file-name/directory
-EX1)
+**EX1)**
 
 Input:
 `
@@ -17,7 +17,8 @@ Output:
 Explanation:
 This command takes in the string pattern "In the late 1940s". It then recursively searches in the current directory and its subdirectories for exact matches and outputs the lines that contain the match along with the file name. This is useful for looking for specific data inside big data files. 
 
-EX2) 
+**EX2)** 
+
 Input: 
 `andyho@Andys-MacBook-Air written_2 % grep -r "no matching string"`
 
