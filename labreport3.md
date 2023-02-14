@@ -3,7 +3,7 @@
 I'll be using the **grep** command :D.
 
 ## grep "string" file-name
----
+
 Input:
 `
 andyho@Andys-MacBook-Air Abernathy % grep "The emergence" ch2.txt`
