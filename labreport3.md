@@ -1,6 +1,7 @@
 # Lab Report 3
 
 I'll be using the **grep** command :D.
+
 All my examples came from https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
 
 ## grep -r "string" file-name/directory
