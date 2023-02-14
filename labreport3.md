@@ -2,7 +2,7 @@
 
 I'll be using the **grep** command :D.
 
-All my examples came from https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
+All my examples came from [title]https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
 
 ## 1. grep -r "string" file-name/directory
 **EXAMPLE 1)**
