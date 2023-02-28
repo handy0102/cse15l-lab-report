@@ -10,10 +10,10 @@ It looks something like this:
 
 ## Step 4 - Logging onto ieng6:
 
-1.  <Lclick><Lclick> on `ssh cs15lwi23aik@ieng6.ucsd.edu`
-2.  <command><c>
-3.  <Lclick> on terminal
-4.  <command><v>
+  <Lclick><Lclick> on `ssh cs15lwi23aik@ieng6.ucsd.edu`
+ <command><c>
+ <Lclick> on terminal
+<command><v>
 
 I copied and pasted the command to login into ieng6 on the terminal here.
   
