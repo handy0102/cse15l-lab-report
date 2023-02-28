@@ -42,12 +42,12 @@ I changed the directory into lab7 by typing "cd l", then auto filling it to "lab
 2. then add a `.j`, `<tab>`, `<enter>`
 3. `<ctrl><O>`, `<enter>`
 4. scroll down to the last while loop
-5. then scroll down to until you reach the line with "index1"
+5. then scroll down to until you reach the line with "index1" increment
 6. Press `<right>` key 12 times
 7. `<delete>` once and type `2`
 8. `<ctrl><x>`, `<y>`, `<enter>`
 
-I shortern the time to type `nano ListExamples.java` by using tab after "L" and after ".j". This edits the ListExamples.java file to fix the bug at the last while loop where index1 is actually suppose to be index2. Then I save the changes using number 8's commands.
+I shortern the time to type `nano ListExamples.java` by using tab after "L" and after ".j". This edits the ListExamples.java file to fix the bug at the last while loop where index1 increment is actually suppose to be index2. Then I save the changes using number 8's commands.
 
 ## Step 8 - Run tests (again)
 1. `<up>` three times.
