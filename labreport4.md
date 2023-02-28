@@ -61,3 +61,5 @@ This step requires you to reuse the same commands from step 6. We can use the up
 1. Type `git add L`, `<tab>`, then type `.j`, `<tab>`, `<enter>`
 2. Type `git commit -m "fixed"`
 3. Type `git push`
+
+This step commits and pushes the changes to ListExamples.java onto the repo. 
