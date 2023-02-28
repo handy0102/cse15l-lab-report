@@ -7,6 +7,6 @@ It looks something like this:
 * Cloning repo: git clone git@github.com:ucsd-cse15l-w23/lab7.git
 * Running tests: javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 
-
+<div style="display: inline">http://example.com</div>
 ## Step 1 - Logging onto ieng6:
 
