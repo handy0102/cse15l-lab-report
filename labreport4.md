@@ -10,13 +10,13 @@ It looks something like this:
 
 ## Step 4 - Logging onto ieng6:
 
-1. <Lclick><Lclick> on `ssh cs15lwi23aik@ieng6.ucsd.edu`
-2. <command><c>
-3. <Lclick> on terminal
-4. <command><v>
+1.  <Lclick><Lclick> on `ssh cs15lwi23aik@ieng6.ucsd.edu`
+2.  <command><c>
+3.  <Lclick> on terminal
+4.  <command><v>
 
 I copied and pasted the command to login into ieng6 on the terminal here.
   
 ## Step 5 - cloning repo:
 
-1. <Lclick><Lclick> on `git clone git@github.com:ucsd-cse15l-w23/lab7.git`
+1.  <Lclick><Lclick> on `git clone git@github.com:ucsd-cse15l-w23/lab7.git`
