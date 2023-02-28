@@ -4,7 +4,7 @@ Before I start, I have a document opened up on the side with all the commands I 
 
 It looks something like this:
 *`ssh cs15lwi23aik@ieng6.ucsd.edu`
-* `git clone git@github.com:ucsd-cse15l-w23/lab7.git`
+* `git clone git@github.com:handy0102/lab7.git`
 * `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
 
 
@@ -12,29 +12,52 @@ It looks something like this:
 1. double click on `ssh cs15lwi23aik@ieng6.ucsd.edu`
 2. `<command><c>`
 3. click back onto the terminal
-4. `<command><v>`
+4. `<command><v>`, `<enter>`
 
 I copied and pasted the command to login into ieng6 on the terminal here.
   
 ## Step 5 - cloning repo:
-1. 
-2. double click on `git clone git@github.com:ucsd-cse15l-w23/lab7.git`
-3. `<command><c>`
-4. click on back onto terminal
-5. `<command><v>`
+1. double click on `git clone git@github.com:handy0102/lab7.git`
+2. `<command><c>`
+3. click on back onto terminal
+4. `<command><v>`, `<enter>`
 
 I copied and pasted the git clone command to clone the lab7 repo.
 
 ## Step 6 - Run tests (fail)
-1. 
-2. double click on `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+1. I typed in `cd l`, then pressed `<tab>`, then `<enter>`. (Note: this will only work if lab7 is the only directory starting with "l").
+2. double click on `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
 3. `<command><c>`
 4. click back onto terminal
-5. `<command><v>`
+5. `<command><v>`, `<enter>`
 6. double click on `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
 7. `<command><c>`
 8. click back onto terminal
-9. `<command><v>`
+9. `<command><v>`, `<enter>`
+
+I changed the directory into lab7 by typing "cd l", then auto filling it to "lab7". Then I copied and paste the commands to compile and run the testers.
 
 ## Step 7 - Fix Code
-1. type `nano l
+1. type `nano L`, `<tab>`
+2. then add a `.j`, `<tab>`, `<enter>`
+3. `<ctrl><O>`, `<enter>`
+4. scroll down to the last while loop
+5. then scroll down to until you reach the line with "index1"
+6. Press `<right>` key 12 times
+7. `<delete>` once and type `2`
+8. `<ctrl><x>`, `<y>`, `<enter>`
+
+I shortern the time to type `nano ListExamples.java` by using tab after "L" and after ".j". This edits the ListExamples.java file to fix the bug at the last while loop where index1 is actually suppose to be index2. Then I save the changes using number 8's commands.
+
+## Step 8 - Run tests (again)
+1. `<up>` three times.
+2. `<enter>`
+3. `<up>` three times.
+4. `<enter>`
+
+This step requires you to reuse the same commands from step 6. We can use the up arrow key to use them again.
+
+## Step 8 - Committing and pushing
+1. Type `git add L`, `<tab>`, then type `.java`, `<tab>`, `<enter>`
+2. Type `git commit -m "fixed"`
+3. Type `git push`
