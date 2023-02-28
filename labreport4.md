@@ -47,7 +47,7 @@ I changed the directory into lab7 by typing "cd l", then auto filling it to "lab
 7. `<delete>` once and type `2`
 8. `<ctrl><x>`, `<y>`, `<enter>`
 
-I shortern the time to type `nano ListExamples.java` by using tab after "L" and after ".j". This edits the ListExamples.java file to fix the bug at the last while loop where index1 increment is actually suppose to be index2. Then I save the changes using number 8's commands.
+I shortern the time to type `nano ListExamples.java` by using tab after "L" and after ".j". I use my scroll wheel to quickly get to the last while loop where index1 increment is actually suppose to be index2. To reach that index1, I have to press the `<left>` arrow key 12 times. Then I save the changes using number 8's commands.
 
 ## Step 8 - Run tests (again)
 1. `<up>` three times.
@@ -62,4 +62,4 @@ This step requires you to reuse the same commands from step 6. We can use the up
 2. Type `git commit -m "fixed"`
 3. Type `git push`
 
-This step commits and pushes the changes to ListExamples.java onto the repo. 
+This step uses two `<tab>` to quickly autofill to ListExamples.java. Then the rest of the steps commits and pushes the changes to ListExamples.java onto the repo.
