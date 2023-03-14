@@ -13,7 +13,7 @@ It looks something like this:
 2. `<command><c>`
 3. click back onto the terminal
 4. `<command><v>`, `<enter>`
-![image](gitclone.png)
+![image](lab4pics/gitclone.png)
 I copied and pasted the command to login into ieng6 on the terminal here.
   
 ## Step 5 - cloning repo:
