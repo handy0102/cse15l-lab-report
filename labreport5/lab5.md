@@ -106,12 +106,14 @@ This command finds all of the travel guides that end with history. This was usef
 Input: `andyho@Andys-MacBook-Air written_2 % find non-fiction/OUP/Abernathy -name '*.txt' -delete`
 
 Output: Nothing, but after doing `andyho@Andys-MacBook-Air written_2 % find non-fiction/OUP/Abernathy`
+
 And that outputs: `non-fiction/OUP/Abernathy`
 
 This command deleted all the files inside Abernathy that ended with '.txt', in this case it was all the files. It's useful for deleting certain types of files.
 
 2. 
 Input: `find travel_guides/berlitz2 find travel_guides/berlitz2 -name '*History.txt' -delete`
+
 Output: 
 (`After doing andyho@Andys-MacBook-Air written_2 % find travel_guides/berlitz2`):
 
