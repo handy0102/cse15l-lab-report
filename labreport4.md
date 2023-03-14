@@ -57,7 +57,7 @@ I shortern the time to type `nano ListExamples.java` by using tab after "L" and 
 ![image](lab4pics/fixedtests.png)
 This step requires you to reuse the same commands from step 6. We can use the up arrow key to use them again.
 
-## Step 8 - Committing and pushing
+## Step 9 - Committing and pushing
 1. Type `git add L`, `<tab>`, then type `.j`, `<tab>`, `<enter>`
 2. Type `git commit -m "fixed"`
 3. Type `git push`
