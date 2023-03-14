@@ -112,7 +112,9 @@ This command deleted all the files inside Abernathy that ended with '.txt', in t
 
 2. 
 Input: `find travel_guides/berlitz2 find travel_guides/berlitz2 -name '*History.txt' -delete`
-Output: (`After doing andyho@Andys-MacBook-Air written_2 % find travel_guides/berlitz2`):
+Output: 
+(`After doing andyho@Andys-MacBook-Air written_2 % find travel_guides/berlitz2`):
+
 `travel_guides/berlitz2
 travel_guides/berlitz2/Berlin-WhereToGo.txt
 travel_guides/berlitz2/Amsterdam-WhereToGo.txt
