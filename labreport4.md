@@ -34,7 +34,7 @@ I copied and pasted the git clone command to clone the lab7 repo.
 7. `<command><c>`
 8. click back onto terminal
 9. `<command><v>`, `<enter>`
-![image](lab4pics/runningtests)
+![image](lab4pics/runningtests.png)
 I changed the directory into lab7 by typing "cd l", then auto filling it to "lab7". Then I copied and paste the commands to compile and run the testers.
 
 ## Step 7 - Fix Code
